@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+:root {
+    --primary-color: #1bff00; 
+
+    --background-color: #ffffff;
+    --text-color: #000000;
+
+    --fpl-color: #37527B;
+}
+.dark-mode{
+    --background-color: #000000;
+    --text-color: #ffffff;
+}
+
+body{
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+}
+.grid{
+    padding-left: 72px!important;
+    padding-right: 72px!important;
+}
+.row div{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.site-header{
+    margin: 20px 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 26px;
+    backdrop-filter: saturate(180%) blur(10px);
+    background-color: var(--background-color) 0.6;
+}
+.site-header a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.site-header a:hover{
+    color: var(--primary-color);
+}
+.site-header a.active{
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.home{
+    display: block;
+}
+.home .me{
+    background-image: url(svg/illustration.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 0%;
+}
+.home .me .about{
+    min-height: calc( 100vh - 105px - 50px );
+    padding: 0;
+}
+.home .me .name,
+.contact .name{
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+.contact.row>*{
+    padding-left: 0;
+    padding-right: 0;
+}
+.home .me .name>b{
+    font-size: 56px;
+    font-weight: 700;
+}
+.home .me h2{
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.home .me .position,
+.home .contact .position{
+    font-size: 32px;
+    font-style: italic;
+}
+.home .me .job{
+    font-size: 32px;
+}
+.home .me .description{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 300;
+    margin-top: 100px;
+}
+@keyframes float {
+	0% {
+		/* box-shadow: 0 5px 10px 0px rgba(255, 255, 255, 0.4); */
+		transform: translatey(0px);
+	}
+	50% {
+		/* box-shadow: 0 10px 10px 0px rgba(255, 255, 255, 0.2); */
+		transform: translatey(-25px);
+	}
+	100% {
+		/* box-shadow: 0 5px 10px 0px rgba(255, 255, 255, 0.4); */
+		transform: translatey(0px);
+	}
+}
+.home .me .scroll img{
+    margin: 0 auto;
+    display: block;
+    animation: float 1.5s ease-in-out infinite;
+}
+.home .me .scroll{
+    height: 50px;
+}
+
+.home .projects{
+    padding: 50px 0;
+    padding-top: 60px;
+}
+.home .projects a{
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0;
+}
+.home .projects a:hover{
+    color: var(--primary-color);
+}
+.home .projects a:hover img{
+    opacity: .9;
+}
+.home .projects .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.home .projects .project{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 48px;
+}
+.home .projects .project h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.home .projects .project h3>b{
+    font-weight: 900;
+}
+.home .projects .project div{
+    padding: 0;
+}
+.home .projects .project .banner{
+    background-color: var(--primary-color);
+    margin-bottom: 45px;
+}
+
+.home .projects .project.project-full-page img,
+.home .projects .project.project-half-page img{
+    width: 100%;
+}
+.home .projects .project.project-full-page h2,
+.home .projects .project.project-half-page h2{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43px;
+}
+.home .projects .project.project-half-page h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.home .experiences{
+    font-size: 24px;
+    padding: 100px 0;
+    background: linear-gradient(360deg, rgba(27, 255, 0, 0) 0%, rgba(27, 255, 0, 0.1) 100%);
+}
+.home .experiences div{
+    padding: 0;
+}
+.home .experiences .xps{
+    display: flex;
+    font-weight: 300;
+}
+.home .experiences .xps .xp{
+    border: 3px solid var(--primary-color);
+    width: 33px;
+    height: 33px;
+    border-radius: 20px;
+    display: inline-table;
+    margin-right: 20px;
+}
+.home .experiences .xps .xp.off{
+    opacity: .2;
+}
+
+.home .contact h4,
+.home .contact p{
+    font-size: 20px;
+}
+.home .contact h4{
+    font-weight: 700;
+    line-height: 24px;
+}
+.home .contact p{
+    font-weight: 300;
+    line-height: 24px;
+}
+.home .contact .social{
+    margin-top: 50px;
+}
+.home .contact .social:last-child{
+    margin-bottom: 70px;
+}
+
+footer{
+    text-align: center;
+    color: var(--primary-color);
+}
+.home .contact .social a{
+    color: var(--text-color);
+    text-decoration-color: var(--text-color);
+    text-decoration: underline;
+    display: block;
+    width: fit-content;
+}
+.home .contact .social a:hover{
+    color: var(--primary-color);
+    text-decoration-color: var(--primary-color);
+}
+
+
+
+
+.site-header.back{
+    text-align: left;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.site-header.back b{
+    margin-left: 20px;
+    vertical-align: middle;
+    font-size: 24px;
+}
+.site-header.back a{
+    display: block;
+}
+.site-header.back a img{
+    height: 30px;
+}
+.site-header.back a:hover img{
+    fill: var(--primary-color);
+}
+
+.project-page{
+    width: 100%;
+    margin: 0;
+}
+.project-page .row{
+    margin: 0;
+}
+.project-page .banner{
+    padding: 0;
+}
+.project-page .banner img{
+    width: 100%;
+}
+.project-page .topic{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.project-page .topic .topic-title,
+.project-page .topic .description{
+    padding: 0;
+}
+.project-page .topic .topic-title h3{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.project-page .topic .description{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.project-page .project-title{
+    font-size: 38px;
+}
+.project-page .topic .description .softwares{
+    display: flex;
+}
+.project-page .topic .description .softwares .app{
+    width: fit-content;
+}
+.project-page .topic .description .softwares .app img{
+    height: 100px;
+    display: block;
+}
+.project-page .topic .description .softwares .app span{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+.topic.pics{
+    display: flex;
+    padding-bottom: 50px;
+}
+.topic.pics .pic:first-child{
+    margin-left: 0;
+}
+.topic.pics .pic{
+    flex: 1;
+    padding: 15px;
+    background: #1D2B40;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.topic.pics .pic p{
+    text-align: center;
+    margin: 10px 0 0;
+    font-family: 'Caveat', cursive;
+    font-size: 26px;
+}
+.topic.pics .pic img{
+    width: 100%;
+}
+.topic.pics.gradient{
+    background: linear-gradient(180deg, #37527B 0%, #9EABBE 172.78%);
+}
+
+.fpl-bg{
+    background: var(--fpl-color);
+}
