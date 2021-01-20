@@ -18,9 +18,12 @@ body{
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
 }
+.row{
+    margin: 0;
+}
 .grid{
-    padding-left: 72px!important;
-    padding-right: 72px!important;
+    padding-left: 94px!important;
+    padding-right: 94px!important;
 }
 .row div{
     padding-left: 12px;
@@ -126,7 +129,7 @@ body{
     text-decoration: none;
     padding: 0;
 }
-.home .projects a:hover{
+.home .projects a:hover h2{
     color: var(--primary-color);
 }
 .home .projects a:hover img{
@@ -178,6 +181,9 @@ body{
     font-size: 24px;
     padding: 100px 0;
     background: linear-gradient(360deg, rgba(27, 255, 0, 0) 0%, rgba(27, 255, 0, 0.1) 100%);
+}
+.home .experiences>div{
+    margin: auto;
 }
 .home .experiences div{
     padding: 0;
@@ -334,4 +340,24 @@ footer{
 
 .fpl-bg{
     background: var(--fpl-color);
+}
+
+@media (max-width: 767.98px) {
+    .grid{
+        padding-left: 24px!important;
+        padding-right: 24px!important;
+    }
+    .home .experiences p{
+        margin-bottom: 0;
+    }
+    .home .experiences .xps{
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .grid{
+        padding-left: 48px!important;
+        padding-right: 48px!important;
+    }
 }
