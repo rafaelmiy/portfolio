@@ -296,9 +296,15 @@ footer p{
     line-height: 42px;
 }
 .project-page .topic .description{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 24px;
+}
+.project-page .label{
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 48px;
 }
 .project-page .project-title{
     font-size: 38px;
@@ -353,6 +359,104 @@ footer p{
     background: var(--fpl-color);
 }
 
+/* Frame do iPhone */
+.device-iphone11-frame{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://developer.apple.com/design/human-interface-guidelines/images/iPhone-11-pro.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.device-iphone11-container {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: var(--frame-width);
+    height: var(--frame-height);
+    padding: 0;
+}
+.device-iphone11-image-full, .hig-content .device-iphone11-image-half {
+    position: absolute;
+    max-width: initial;
+    width: var(--screen-width);
+    height: var(--screen-height);
+    left: var(--screen-left);
+    top: var(--screen-top);
+}
+.device-iphone11-container, .video-container-device-iphone11 {
+    padding: 0!important;
+}
+.device-iphone11-container, .video-container-device-iphone11 {
+    --border: 1px solid #e6e6e6;
+    --frame-width: 329px;
+    --frame-height: 658px;
+    --frame-height-nudge: 0px;
+    --screen-left: 21px;
+    --screen-top: 19px;
+    --screen-width: 286px;
+    --screen-height: 620px;
+}
+
+.img-center-full{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    max-width: 800px;
+}
+
+/* Frame do iPad */
+.device-ipad-container-h {
+    position: relative;
+    width: 708px;
+    height: 543px;
+    margin: 0 auto 1em;
+}
+img.device-ipad-image-h {
+    position: absolute;
+    display: block;
+    width: 655px;
+    height: 490px;
+    top: 27px;
+    left: 27px;
+    max-width: initial;
+}
+.device-ipad-container-v {
+    position: relative;
+    height: 708px;
+    width: 543px;
+    margin: 0 auto 1em;
+}
+img.device-ipad-image-v {
+    position: absolute;
+    display: block;
+    height: 655px;
+    width: 490px;
+    left: 26px;
+    top: 27px;
+    max-height: initial;
+}
+.device-ipad-frame-h{
+    background-image: url(img/iPadPro12-9_2x_h.png);
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.device-ipad-frame-v{
+    background-image: url(img/iPadPro12-9_2x_v.png);
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 
 /* tablet */
 @media (max-width: 991.98px) {
@@ -369,6 +473,35 @@ footer p{
         padding-left: 0;
         padding-right: 24px;
         padding-bottom: 24px;
+    }
+    .device-iphone11-container, .video-container-device-iphone11 {
+        --frame-width: 238px;
+        --frame-height: 476px;
+        --frame-height-nudge: 1px;
+        --screen-left: 15px;
+        --screen-top: 13px;
+        --screen-width: 207px;
+        --screen-height: 449px;
+    }
+    .device-ipad-container-h {
+        width: 510px;
+        height: 391px;
+    }
+    img.device-ipad-image-h {
+        width: 471px;
+        height: 354px;
+        top: 19px;
+        left: 20px;
+    }
+    .device-ipad-container-v {
+        height: 510px;
+        width: 391px;
+    }
+    img.device-ipad-image-v {
+        height: 471px;
+        width: 354px;
+        left: 19px;
+        top: 20px;
     }
 }
 
@@ -397,6 +530,8 @@ footer p{
     .site-header.back{
         padding-left: 12px;
         padding-right: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .project-page .topic .description .softwares{
         padding: 0;
@@ -405,5 +540,25 @@ footer p{
         padding-left: 0;
         padding-right: 24px;
         padding-bottom: 24px;
+    }
+    .device-ipad-container-h {
+        width: 319px;
+        height: 245px;
+    }
+    img.device-ipad-image-h {
+        width: 295px;
+        height: 222px;
+        top: 12px;
+        left: 12px;
+    }
+    .device-ipad-container-v {
+        height: 319px;
+        width: 245px;
+    }
+    img.device-ipad-image-v {
+        height: 295px;
+        width: 222px;
+        left: 12px;
+        top: 12px;
     }
 }
