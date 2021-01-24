@@ -38,7 +38,7 @@ body{
     font-size: 26px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    background-color: var(--background-color) 0.6;
+    background-color: #00000080;
 }
 .site-header a{
     margin: 0 20px;
@@ -320,7 +320,7 @@ footer p{
     padding-left: 0;
 }
 .project-page .topic .description .softwares .app img{
-    height: 100px;
+    height: 80px;
     display: block;
 }
 .project-page .topic .description .softwares .app span{
@@ -346,7 +346,7 @@ footer p{
     text-align: center;
     margin: 10px 0 0;
     font-family: 'Caveat', cursive;
-    font-size: 26px;
+    font-size: 24px;
 }
 .topic.pics .pic img{
     width: 100%;
@@ -446,6 +446,7 @@ img.device-ipad-image-v {
     bottom: 0;
     left: 0;
     right: 0;
+    background-repeat: no-repeat;
 }
 .device-ipad-frame-v{
     background-image: url(img/iPadPro12-9_2x_v.png);
@@ -455,6 +456,7 @@ img.device-ipad-image-v {
     bottom: 0;
     left: 0;
     right: 0;
+    background-repeat: no-repeat;
 }
 
 
@@ -552,13 +554,13 @@ img.device-ipad-image-v {
         left: 12px;
     }
     .device-ipad-container-v {
-        height: 319px;
+        height: 320px;
         width: 245px;
     }
     img.device-ipad-image-v {
-        height: 295px;
-        width: 222px;
-        left: 12px;
+        height: 296px;
+        width: 223px;
+        left: 11px;
         top: 12px;
     }
 }
