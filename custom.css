@@ -362,6 +362,14 @@ footer p{
     background: var(--fpl-color);
 }
 
+
+.grid-left{
+    padding-left: 24px!important;
+}
+.grid-right{
+    padding-right: 24px!important;
+}
+
 /* Frame do iPhone */
 .device-iphone11-frame{
     position: relative;
