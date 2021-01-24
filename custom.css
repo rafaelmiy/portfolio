@@ -18,6 +18,9 @@ body{
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
 }
+a:focus{
+    outline: none;
+}
 .row{
     margin: 0;
 }
@@ -458,6 +461,7 @@ img.device-ipad-image-v {
     right: 0;
     background-repeat: no-repeat;
 }
+
 
 
 /* tablet */
