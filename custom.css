@@ -297,7 +297,7 @@ footer p{
 .project-page .topic .topic-title h3{
     font-size: 28px;
     font-weight: 700;
-    line-height: 42px;
+    line-height: 30px;
 }
 .project-page .topic .description{
     font-size: 16px;
@@ -311,7 +311,8 @@ footer p{
     margin-top: 1em;
 }
 .project-page .project-title{
-    font-size: 36px;
+    font-size: 32px;
+    line-height: 40px;
 }
 .project-page .img-title-top{
     font-size: 24px;
