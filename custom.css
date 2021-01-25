@@ -27,9 +27,6 @@ a:focus{
 .row{
     margin: 0;
 }
-.row img{
-    height: initial;
-}
 .grid{
     padding-left: 94px!important;
     padding-right: 94px!important;
@@ -37,6 +34,9 @@ a:focus{
 .row div{
     padding-left: 12px;
     padding-right: 12px;
+}
+.img-full-width{
+    width: 100%;
 }
 
 .site-header{
