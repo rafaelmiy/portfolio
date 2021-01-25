@@ -521,7 +521,7 @@ img.device-ipad-image-v {
     text-decoration: none;
     color: var(--primary-color);
 }
-.flags .flag:first-child{
+.flags a:first-child .flag{
     margin-right: 24px;
 }
 .flags .flag img{
@@ -663,5 +663,8 @@ img.device-ipad-image-v {
     }
     .flags a{
         flex: 1;
+    }
+    .flags a:first-child .flag{
+        margin-right: 0;
     }
 }
