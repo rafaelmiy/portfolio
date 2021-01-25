@@ -44,7 +44,7 @@ a:focus{
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: center;
-    font-size: 26px;
+    font-size: 22px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     background-color: #00000080;
@@ -76,9 +76,9 @@ a:focus{
 }
 .home .me .name,
 .contact .name{
-    font-size: 52px;
+    font-size: 44px;
     font-weight: 400;
-    line-height: 55px;
+    line-height: 50px;
     margin-bottom: 20px;
 }
 .contact.row>*{
@@ -86,24 +86,24 @@ a:focus{
     padding-right: 0;
 }
 .home .me .name>b{
-    font-size: 56px;
+    font-size: 50px;
     font-weight: 700;
 }
 .home .me h2{
     font-weight: 400;
-    line-height: 37.5px;
+    line-height: 26px;
 }
 .home .me .position,
 .home .contact .position{
-    font-size: 32px;
+    font-size: 28px;
     font-style: italic;
 }
 .home .me .job{
-    font-size: 32px;
+    font-size: 28px;
 }
 .home .me .description{
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 22px;
     font-weight: 300;
     margin-top: 100px;
 }
@@ -158,7 +158,7 @@ a:focus{
     margin-bottom: 48px;
 }
 .home .projects .project h3{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 }
 .home .projects .project h3>b{
@@ -169,7 +169,7 @@ a:focus{
 }
 .home .projects .project .banner{
     background-color: var(--primary-color);
-    margin-bottom: 45px;
+    margin-bottom: 24px;
 }
 
 .home .projects .project.project-full-page img,
@@ -178,14 +178,9 @@ a:focus{
 }
 .home .projects .project.project-full-page h2,
 .home .projects .project.project-half-page h2{
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 900;
-    line-height: 43px;
-}
-.home .projects .project.project-half-page h3{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
+    line-height: 32px;
 }
 
 .home .experiences{
@@ -388,6 +383,7 @@ footer p{
 .img-display{
     max-width: 700px;
 }
+
 
 /* Frame do iPhone */
 .device-iphone11-frame{
@@ -620,5 +616,15 @@ img.device-ipad-image-v {
         width: 223px;
         left: 11px;
         top: 12px;
+    }
+    .project-link.grid-left,
+    .project-link.grid-right{
+        padding: 0!important;
+    }
+    .home .me .description{
+        margin-top: 72px;
+    }
+    .home .projects .project .banner {
+        margin-bottom: 12px;
     }
 }
