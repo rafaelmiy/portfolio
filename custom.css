@@ -518,9 +518,14 @@ img.device-ipad-image-v {
 
 .flags a{
     display: inline-block;
+    text-decoration: none;
+    color: var(--primary-color);
 }
 .flags .flag:first-child{
     margin-right: 24px;
+}
+.flags .flag img{
+    margin-right: 5px;
 }
 
 
@@ -653,7 +658,10 @@ img.device-ipad-image-v {
     footer p{
         text-align: center;
     }
-    .flags .flag:first-child{
-        margin-right: 0;
+    .flags{
+        display: flex;
+    }
+    .flags a{
+        flex: 1;
     }
 }
