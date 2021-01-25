@@ -516,6 +516,9 @@ img.device-ipad-image-v {
     background-repeat: no-repeat;
 }
 
+.flags a{
+    display: inline-block;
+}
 .flags .flag:first-child{
     margin-right: 24px;
 }
