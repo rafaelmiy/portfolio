@@ -28,7 +28,7 @@ a:focus{
     margin: 0;
 }
 .row img{
-    height: auto;
+    height: initial;
 }
 .grid{
     padding-left: 94px!important;
