@@ -21,6 +21,9 @@ body{
 a:focus{
     outline: none;
 }
+.img-invert{
+    filter: invert(1);
+}
 .row{
     margin: 0;
 }
@@ -294,12 +297,12 @@ footer p{
     padding: 0;
 }
 .project-page .topic .topic-title h3{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 42px;
 }
 .project-page .topic .description{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
@@ -307,10 +310,14 @@ footer p{
     font-size: 12px;
     line-height: 1.4;
     text-align: center;
-    margin-bottom: 48px;
+    margin-top: 1em;
 }
 .project-page .project-title{
-    font-size: 38px;
+    font-size: 36px;
+}
+.project-page .img-title-top{
+    font-size: 24px;
+    text-align: center;
 }
 .project-page .topic .description .softwares{
     display: flex;
@@ -368,6 +375,15 @@ footer p{
 }
 .grid-right{
     padding-right: 24px!important;
+}
+.grid-bottom{
+    margin-bottom: 24px!important;
+}
+.grid-top{
+    margin-top: 24px!important;
+}
+.img-display{
+    max-width: 700px;
 }
 
 /* Frame do iPhone */
@@ -441,7 +457,7 @@ footer p{
     margin: 0 auto;
     display: block;
     width: 100%;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
     max-width: 800px;
 }
 
