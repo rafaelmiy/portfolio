@@ -27,6 +27,9 @@ a:focus{
 .row{
     margin: 0;
 }
+.row img{
+    height: auto;
+}
 .grid{
     padding-left: 94px!important;
     padding-right: 94px!important;
