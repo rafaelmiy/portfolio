@@ -15,7 +15,7 @@
         <header class="site-header back sticky-top">
             <a href="index.html#fpl">
                 <img src="svg/chevron-left.svg">
-                <b>Voltar</b>
+                <b id="backLG">Voltar</b>
             </a>
         </header>
         <content class="row project-page fpl-bg">
@@ -23,15 +23,15 @@
                 <img src="img/fpl/banner.png">
             </div>
             <div class="col-md-12 grid topic">
-                <h2 class="project-title">FPL BR - EFB<br>(Electronic Flight Bag)</h2>
+                <h2 class="project-title" id="titleprojectLG">FPL BR - EFB (Electronic Flight Bag)</h2>
             </div>
 
             <div class="row col-md-12 grid topic">
                 <div class="col-md-3 topic-title">
-                    <h3>Desafios</h3>
+                    <h3 id="topicchallengeLG">Desafios</h3>
                 </div>
                 <div class="col-md-9 description">
-                    <p>Agregar informações importantes para pilotos aeronáuticos, o aplicativo contempla previsão do tempo, documentos oficiais aeronáuticos (cartas aeronáuticas) atualizados, integração do plano de voo (documento que contém informações a respeito de um voo) com o mapa de planejamento e gerenciamento de planos de voo.</p>
+                    <p id="descriptionchallengeLG">Agregar informações importantes para pilotos aeronáuticos, o aplicativo contempla previsão do tempo, documentos oficiais aeronáuticos (cartas aeronáuticas) atualizados, integração do plano de voo (documento que contém informações a respeito de um voo) com o mapa de planejamento e gerenciamento de planos de voo.</p>
                 </div>
             </div>
             <div class="col-md-12 grid">
@@ -41,7 +41,7 @@
 
             <div class="row col-md-12 grid topic">
                 <div class="col-md-3 topic-title">
-                    <h3>O Time</h3>
+                    <h3 id="topicteamLG">O Time</h3>
                 </div>
                 <div class="col-md-9 description">
                     <p>Contou com o apoio de profissionais multidiciplinares como UX e UI designers, product owner, analistas de requisitos, engenheiros, pilotos, entre outros.</p>
@@ -110,7 +110,7 @@
             </div>
             <div class="row col-md-12 grid topic">
                 <div class="col-md-3 topic-title">
-                    <h3>Tecnologias</h3>
+                    <h3 id="topictechnologiesLG">Tecnologias</h3>
                 </div>
                 <div class="col-md-9 description">
                     <div class="row softwares">
@@ -136,10 +136,10 @@
 
             <div class="row col-md-12 grid topic">
                 <div class="col-md-3 topic-title">
-                    <h3>Conclusão</h3>
+                    <h3 id="topicconclusionLG">Conclusão</h3>
                 </div>
                 <div class="col-md-9 description">
-                    <p>Me ajuda aqui.</p>
+                    <p>Muitos desafios surgiram do decorrer do projeto devido ao deadline apertado, mas o tempo gasto para organizar todos os requisitos foi crucial para a precisão do projeto. Foi possível ver o valor em seguir o fluxo de organização de prótipos, criando stlye guide, componentizando cores, fontes e elementos, para então ganhar tempo no decorrer do projeto. Fazendo protótipos eficientes com fluxos interativos, para que as validações com PO e desenvolvedores fossem rápidas e eficazes, proporcionando um sucesso na entrega final, cliente satisfeito e projeto de design entregue no prazo estipulado.</p>
                 </div>
             </div>
 
@@ -151,12 +151,12 @@
                 <p><b>Rafael Miyamoto</b> © 2021</p>
             </div> -->
             <div class="flags">
-                <a href="#">
+                <a onclick="ptTranslate('pt')" id="pt-area">
                     <div class="flag">
                         <img src="svg/br-flag.svg"> PT
                     </div>
                 </a>
-                <a href="#">
+                <a onclick="enTranslate('en')" id="en-area">
                     <div class="flag">
                         <img src="svg/us-flag.svg"> EN
                     </div>
@@ -168,6 +168,11 @@
     </body>
 
     <script src="bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="project1.json"></script>
+    <script src="js/language.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/footer.js"></script>
     <!-- <script src="js/jquery-3.5.1.min.js"></script> -->
     <!-- <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script> -->
     

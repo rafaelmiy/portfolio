@@ -234,6 +234,13 @@ footer{
     color: var(--primary-color);
     padding-top: 10px;
     padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--background-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: #00000080;
 }
 footer p{
     margin: 0;
