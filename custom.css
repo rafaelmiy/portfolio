@@ -71,7 +71,7 @@ a:focus{
     background-position: 100% 0%;
 }
 .home .me .about{
-    min-height: calc( 100vh - 93px );
+    min-height: calc( 100vh - 93px - 75px );
     padding: 0;
 }
 .home .me .name,
@@ -124,7 +124,7 @@ a:focus{
 .home .me .scroll img{
     margin: 0 auto;
     display: block;
-    animation: float 1.5s ease-in-out infinite;
+    animation: float 2s ease-in-out infinite;
 }
 .home .me .scroll{
     height: 50px;
@@ -239,7 +239,7 @@ footer{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     background-color: #00000080;
-    position: sticky;
+    /* position: sticky; */
     bottom: 0;
 }
 footer p{
@@ -690,5 +690,8 @@ img.device-ipad-image-v {
     }
     .flags .flag img {
         width: 30px;
+    }
+    .home .me .about {
+        min-height: calc( 100vh - 93px );
     }
 }
