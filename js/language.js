@@ -10,11 +10,15 @@ else if(localStorage.getItem("language") == 'en'){
 function translateJSON(lg){
   if(lg == 'pt'){
     var content = JSON.parse(ptLG);
+    document.getElementById("us-flag").classList.remove("active");
+    document.getElementById("br-flag").classList.add("active");
     // document.getElementById("pt-area").style.display = "initial";
     // document.getElementById("en-area").style.display = "none";
   }
   else if(lg = 'en'){
     var content = JSON.parse(enLG);
+    document.getElementById("br-flag").classList.remove("active");
+    document.getElementById("us-flag").classList.add("active");
     // document.getElementById("pt-area").style.display = "none";
     // document.getElementById("en-area").style.display = "initial";
   }
@@ -31,7 +35,7 @@ function translateJSON(lg){
     
     $("#"+idJS).html(textJS);
   }
-  console.log('acabou');
+
 }
 
 // TODO: fazer lógica para consumir json em pt quando for página

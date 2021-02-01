@@ -234,13 +234,13 @@ footer{
     color: var(--primary-color);
     padding-top: 10px;
     padding-bottom: 10px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background-color: var(--background-color);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     background-color: #00000080;
+    position: sticky;
+    bottom: 0;
 }
 footer p{
     margin: 0;
@@ -534,6 +534,20 @@ img.device-ipad-image-v {
 .flags .flag img{
     margin-right: 5px;
 }
+.flags .flag{
+    padding: 3px!important;
+    padding-right: 9px!important;
+    width: fit-content;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+.flags .flag:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.flags .flag.active{
+    border-color: var(--primary-color);
+}
 
 
 
@@ -671,7 +685,10 @@ img.device-ipad-image-v {
     .flags a{
         flex: 1;
     }
-    .flags a:first-child .flag{
-        margin-right: 0;
+    .flags .flag{
+        margin: 0 auto!important;
+    }
+    .flags .flag img {
+        width: 30px;
     }
 }
