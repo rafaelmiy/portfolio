@@ -6,6 +6,9 @@ if(localStorage.getItem("language") == 'pt'){
 else if(localStorage.getItem("language") == 'en'){
   translateJSON('en');
 }
+else{
+  translateJSON('pt');
+}
 
 function translateJSON(lg){
   if(lg == 'pt'){
