@@ -319,6 +319,7 @@ footer div{
     line-height: 1.4;
     text-align: center;
     margin-top: 1em;
+    font-weight: 400;
 }
 .project-page .project-title{
     font-size: 32px;
