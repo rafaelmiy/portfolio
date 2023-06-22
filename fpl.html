@@ -12,8 +12,8 @@
         <link rel="stylesheet" href="custom.css?1">
     </head>
     <body class="dark-mode">
-        <header class="site-header back sticky-top">
-            <a href="index.html#fpl">
+        <header class="site-header back sticky-top anchor">
+            <a onclick="window.history.go(-1)" href="#">
                 <!-- <img src="svg/chevron-left.svg"> -->
                 <svg width="26" height="43" viewBox="0 0 26 43" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M25.9675 5.90253L9.93747 21.9675L25.9675 38.0325L21.0325 42.9675L0.0324688 21.9675L21.0325 0.967529L25.9675 5.90253Z" fill="white"/>
@@ -23,11 +23,10 @@
             </a>
         </header>
         <content class="row project-page fpl-bg">
-            <div class="banner col-md-12">
-                <img src="img/fpl/banner.png">
+            <div class="banner col-md-12" style="background-image:url('img/fpl/banner.png')">
             </div>
             <div class="col-md-12 grid topic">
-                <h2 class="project-title" id="titleprojectLG">FPL BR - EFB (Electronic Flight Bag)</h2>
+                <h2 class="project-title" id="titleprojectLG">FP</h2>
             </div>
 
             <div class="row col-md-12 grid topic">
@@ -79,14 +78,17 @@
                 <img class="img-display img-center-full" src="img/fpl/display.png">
                 <h6 id="picture5LG" class="label">O aplicativo foi prototipado para celulares e tablets (Android e iOS), e idealizado para Apple Watch.</h6>
             </div>
+            
             <div class="col-md-12 grid grid-bottom">
                 <!-- <h6 class="label">Style guide light mode.</h6> -->
                 <img class="img-center-full" src="img/fpl/style_guide.png">
             </div>
+
             <div class="col-md-12 grid grid-bottom grid-top">
                 <h5 id="picture6LG" class="img-title-top">Sitemap</h5>
                 <img class="img-full-width" src="img/fpl/site_map_pt.png">
             </div>
+
             <div class="col-md-12 grid grid-bottom grid-top">
                 <h5 id="picture6LG" class="img-title-top">Interfaces</h5>
             </div>
@@ -154,22 +156,21 @@
         
         
         <footer class="grid">
-            <!-- <div class="col-md-12 col-lg-6">
+            <!-- <div class="col-md-12 col-LG"-6">
                 <p><b>Rafael Miyamoto</b> © 2021</p>
             </div> -->
-            <div class="flags">
-                <a onclick="ptTranslate('pt')" id="pt-area">
+            <div class="flags anchor">
+                <a onclick="pgTranslate('pt')" id="pt-area">
                     <div id="br-flag" class="flag">
                         <img src="svg/br-flag.svg"> PT
                     </div>
                 </a>
-                <a onclick="enTranslate('en')" id="en-area">
+                <a onclick="pgTranslate('en')" id="en-area">
                     <div id="us-flag" class="flag">
                         <img src="svg/us-flag.svg"> EN
                     </div>
                 </a>
             </div>
-
         </footer>
         
     </body>
@@ -177,9 +178,9 @@
     <script src="bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="project1.json"></script>
-    <script src="js/footer.js"></script>
-    <script src="js/language.js"></script>
     <script src="js/home.js"></script>
+    <script src="js/language.js"></script>
+    <!-- <script src="js/footer.js"></script> -->
     <!-- <script src="js/jquery-3.5.1.min.js"></script> -->
     <!-- <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script> -->
     

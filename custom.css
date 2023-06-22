@@ -7,6 +7,8 @@
     --text-color: #000000;
 
     --fpl-color: #37527B;
+    --drone-color: #006D7E;
+    --eve-color: #7954D7;
 }
 .dark-mode{
     --background-color: #000000;
@@ -40,7 +42,7 @@ a:focus{
 }
 
 .site-header{
-    margin: 20px 0;
+    margin: 6px 0;
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: center;
@@ -69,6 +71,7 @@ a:focus{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 100% 0%;
+    padding-top: 20px;
 }
 .home .me .about{
     min-height: calc( 100vh - 93px - 75px );
@@ -93,13 +96,13 @@ a:focus{
     font-weight: 400;
     line-height: 26px;
 }
-.home .me .position,
-.home .contact .position{
-    font-size: 28px;
+.home .me .role,
+.home .contact .role{
+    font-size: 24px;
     font-style: italic;
 }
 .home .me .job{
-    font-size: 28px;
+    font-size: 24px;
 }
 .home .me .description{
     font-size: 16px;
@@ -179,12 +182,12 @@ a:focus{
 .home .projects .project.project-full-page h2,
 .home .projects .project.project-half-page h2{
     font-size: 28px;
-    font-weight: 900;
+    font-weight: 500;
     line-height: 32px;
 }
 
 .home .experiences{
-    font-size: 22px;
+    font-size: 18px;
     padding: 100px 0;
     background: linear-gradient(360deg, rgba(27, 255, 0, 0) 0%, rgba(27, 255, 0, 0.1) 100%);
 }
@@ -199,15 +202,16 @@ a:focus{
     font-weight: 300;
 }
 .home .experiences .xps .xp{
-    border: 3px solid var(--primary-color);
-    width: 33px;
+    border: 2px solid var(--primary-color);
+    width: 20px;
     height: 33px;
-    border-radius: 20px;
+    border-radius: 10px;
     display: inline-table;
-    margin-right: 20px;
+    margin-right: 6px;
+    background-color: var(--primary-color);
 }
 .home .experiences .xps .xp.off{
-    opacity: .2;
+    background-color: transparent;
 }
 
 .home .contact h4,
@@ -248,7 +252,27 @@ footer p{
     text-align: left;
 }
 footer div{
-    padding: 0!important;
+    padding: 0;
+}
+
+.lgSelector{
+    text-align: center;
+    color: var(--primary-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.lgSelector .flags a{
+    margin: 0;
+    font-size: 1rem;
+}
+.lgSelector p{
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
 }
 
 .home .contact .social a{
@@ -269,12 +293,13 @@ footer div{
     padding-right: 48px;
 }
 .site-header.back svg{
-    height: 30px;
+    height: 24px;
 }
 .site-header.back b{
-    margin-left: 20px;
+    margin-left: 12px;
     vertical-align: middle;
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 400;
 }
 .site-header.back a{
     display: block;
@@ -296,6 +321,8 @@ footer div{
 }
 .project-page .banner{
     padding: 0;
+    height: 220px;
+    background-size: cover;
 }
 .project-page .banner img{
     width: 100%;
@@ -313,10 +340,35 @@ footer div{
     font-weight: 700;
     line-height: 30px;
 }
+.project-page .topic.advice{
+    background-color: #ffffff;
+    display: flex;
+    padding: 12px 24px!important;
+    margin-left: 94px;
+    margin-right: 94px;
+    width: calc( 100% - 188px);
+    border-radius: 10px;
+    color: var(--eve-color);
+}
+.project-page .topic.advice .topic-title{
+    margin: auto 18px auto 0;
+}
+.project-page .topic.advice .topic-title h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+}
+.project-page .topic.advice .description{
+    margin: auto 0;
+}
+.project-page .topic.advice .description p{
+    margin: 0;
+    font-weight: 500;
+}
 .project-page .topic .description{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22px;
 }
 .project-page .label{
     font-size: 14px;
@@ -344,13 +396,14 @@ footer div{
     padding-left: 0;
 }
 .project-page .topic .description .softwares .app img{
-    height: 70px;
+    height: 50px;
     display: block;
 }
 .project-page .topic .description .softwares .app span{
     display: block;
     text-align: center;
     margin-top: 10px;
+    font-size: 14px;
 }
 .topic.pics{
     display: flex;
@@ -381,6 +434,14 @@ footer div{
 
 .fpl-bg{
     background: var(--fpl-color);
+}
+
+.drone-bg{
+    background: var(--drone-color);
+}
+
+.eve-bg{
+    background: var(--eve-color);
 }
 
 
@@ -471,9 +532,9 @@ footer div{
 .img-center-full{
     margin: 0 auto;
     display: block;
-    width: 100%;
+    width: 60%;
     /* margin-bottom: 1em; */
-    max-width: 800px;
+    max-width: 500px;
 }
 
 /* Frame do iPad */
@@ -534,20 +595,21 @@ img.device-ipad-image-v {
     color: var(--primary-color);
 }
 .flags a:first-child .flag{
-    margin-right: 24px;
+    margin-right: 4px;
 }
 .flags .flag img{
+    width: 24px;
     margin-right: 5px;
 }
 .flags .flag{
-    padding: 3px!important;
-    padding-right: 9px!important;
+    padding: 3px;
+    padding-right: 9px;
     width: fit-content;
     border: 2px solid transparent;
     border-radius: 30px;
 }
 .flags .flag:hover{
-    background-color: green;
+    background-color: #1aff0041;
     cursor: pointer;
 }
 .flags .flag.active{
@@ -566,6 +628,11 @@ img.device-ipad-image-v {
         background-image: url(svg/illustration-opacity.svg);
         background-size: cover;
         background-position: left;
+    }
+    .project-page .topic.advice{
+        margin-left: 48px;
+        margin-right: 48px;
+        width: calc( 100% - 96px);
     }
     .project-page .topic .description .softwares .app{
         padding-left: 0;
@@ -615,6 +682,12 @@ img.device-ipad-image-v {
     .home .experiences .xps{
         margin-bottom: 25px;
     }
+    .home .experiences .column{
+        width: 50%;
+    }
+    .home .experiences .column:last-child{
+        padding-left: 24px;
+    }
     .topic.pics .pic{
         margin: 0 24px 24px;
         flex: auto;
@@ -626,18 +699,23 @@ img.device-ipad-image-v {
         display: none;
     }
     .site-header.back{
-        padding-left: 12px;
-        padding-right: 12px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .project-page .topic.advice{
+        margin-left: 24px;
+        margin-right: 24px;
+        width: calc( 100% - 48px);
     }
     .project-page .topic .description .softwares{
         padding: 0;
     }
     .project-page .topic .description .softwares .app{
         padding-left: 0;
-        padding-right: 24px;
-        padding-bottom: 24px;
+        padding-right: 12px;
+        padding-bottom: 12px;
     }
     .device-ipad-container-h {
         width: 319px;

@@ -6,6 +6,7 @@
 //   return false;
 // });
 
+// Foco da sessão ao fazer scroll da página
 $(window).scroll(function() {
   var x = $(".site-header").offset().top;
   $(".grid").each(function(index) {

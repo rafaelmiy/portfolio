@@ -1,6 +1,60 @@
 
-ptLG = '[{"id" : "meLG", "text" : "Eu"},{"id" : "projectsLG", "text" : "Projetos"}, {"id": "experiencesLG", "text":"Exp<span class=hide-mobile>eriências"}, {"id": "contactLG", "text":"Contato"}, {"id": "workLG", "text":"em Atech - Grupo"}, {"id": "intro1LG", "text":"UX/UI designer sempre atualizado às tecnologias, possuo um forte impulso ao mundo IOT e Inteligência Artifical. Devido à esse interesse procuro sempre associar inovação tecnológica e design em todo projeto que atuo."}, {"id": "intro2LG", "text":"Procuro sempre me envolver com o fluxo de uso, arquitetura da informação e entregar por meio de protótipos navegáveis o resultado de estudos multidisciplinares em interfaces que agregam e geram valores aos negócios."}, {"id": "project1titleLG", "text":"FPL BR - EFB<br> (Eletronic Flight Bag)"}, {"id": "project1descriptionLG", "text":"Do app original <b>FPL</b> de plano de voo, o <b>FPL-BR EFB</b> permite pilotos consultarem informações aeronáuticas, criar planejamento e plano de voo. Desenvolvido na versão mobile e tablet, o App contempla as configurações visuais light e dark mode."}, {"id": "project2titleLG", "text":"Gereciamento de Drones"}, {"id": "project2descriptionLG", "text":"O aplicativo foi criado para o gerenciamento e controle de drones no espaço aéreo."}, {"id": "project3titleLG", "text":"Sistema de Home Office"}, {"id": "project3descriptionLG", "text":"Sistema projetado e realizado para a organização e gerenciamento de alocação de trabalho remoto de funcionários."}, {"id": "project4titleLG", "text":"Alago"}, {"id": "project4descriptionLG", "text":"."}, {"id": "phoneLG", "text":"Celular"}]';
+ptLG = `[{"id" : "meLG", "text" : "Eu"},
 
-enLG = '[{"id" : "meLG", "text" : "Me"},{"id" : "projectsLG", "text" : "Projects"}, {"id": "experiencesLG", "text":"Exp<span class=hide-mobile>eriences"}, {"id": "contactLG", "text":"Contact"}, {"id": "workLG", "text":"at Atech - Group"}, {"id": "intro1LG", "text":"UX/UI designer always ahead of technologies, I have a big interest at IOT and AI, so I am always finding ways to use tecnologic innovation and design at every project I work."}, {"id": "intro2LG", "text":"Always working at usage flow, information architecture to delivery navigable prototypes, that is the result of multidisciplinary studies at interfaces that bring a great value to the business."}, {"id": "project1titleLG", "text":"FPL BR - EFB<br> (Eletronic Flight Bag)"}, {"id": "project1descriptionLG", "text":"From the original FPL flight plan, the FPL-BR EFB allows pilots consult aeronautic informations, create a flight planning and flight plan. Developed to mobile and tablet version, the application has light mode and dark mode visual settings."}, {"id": "project2titleLG", "text":"Drone Management"}, {"id": "project2descriptionLG", "text":"The aplication was created to drone traffic management and control in the airspace."}, {"id": "project3titleLG", "text":"Home Office System"}, {"id": "project3descriptionLG", "text":"Projected and realized to organize and employees home office alocation management."}, {"id": "project4titleLG", "text":"Alago"}, {"id": "project4descriptionLG", "text":"."}, {"id": "phoneLG", "text":"Phone"}]';
+    {"id": "projectsLG", "text":"Projetos"}, 
+    {"id": "experiencesLG", "text":"Exp<span class=hide-mobile>eriências"}, 
+    {"id": "contactLG", "text":"Contato"}, 
+
+    {"id": "workLG", "text":"em Atech - Grupo"}, 
+    {"id": "intro1LG", "text":"UX/UI designer sempre atualizado às tecnologias, possuo um forte impulso ao mundo IOT e Inteligência Artifical. Devido à esse interesse procuro sempre associar inovação tecnológica e design em todo projeto que atuo."}, 
+    {"id": "intro2LG", "text":"Procuro sempre me envolver com o fluxo de uso, arquitetura da informação e entregar por meio de protótipos navegáveis o resultado de estudos multidisciplinares em interfaces que agregam e geram valores aos negócios."}, 
+    
+    {"id": "project3titleLG", "text":"EVE - Mobilidade Aérea"}, 
+    {"id": "project3descriptionLG", "text":"Sistema de gerenciamento aéreo para veículos eVTOL (aeronave 100% elétrica com capacidade de pousar e decolar na vertical), criando uma solução altamente segura e prática para o dia a dia."}, 
+    
+    {"id": "project2titleLG", "text":"Gereciamento de Drones"}, 
+    {"id": "project2descriptionLG", "text":"O aplicativo foi criado para o gerenciamento e controle de drones no espaço aéreo."}, 
+
+    {"id": "project1titleLG", "text":"FPL BR - EFB<br> (Bolsa Eletrônica de Voo)"}, 
+    {"id": "project1descriptionLG", "text":"O aplicativo permite pilotos consultarem informações aeronáuticas, criar planejamento e plano de voo. Desenvolvido na versão celular e tablet, o app contempla o estilo diurno e noturno."}, 
+    
+    {"id": "project4titleLG", "text":"Sistema de Home Offices"}, 
+    {"id": "project4descriptionLG", "text":"Sistema projetado e realizado para a organização e gerenciamento de alocação de trabalho remoto de funcionários."}, 
+    
+    {"id": "project5titleLG", "text":"Agroexplore"}, 
+    {"id": "project5descriptionLG", "text":"."}, 
+
+    {"id": "phoneLG", "text":"Celular"}
+
+    ]`;
+
+enLG = `[{"id" : "meLG", "text" : "Me"},
+    
+    {"id" : "projectsLG", "text":"Projects"}, 
+    {"id": "experiencesLG", "text":"Exp<span class=hide-mobile>eriences"}, 
+    {"id": "contactLG", "text":"Contact"}, 
+
+    {"id": "workLG", "text":"at Atech - Group"}, 
+    {"id": "intro1LG", "text":"UX/UI designer always ahead of technologies, I have a big interest at IOT and AI, so I am always finding ways to use tecnologic innovation and design at every project I work."}, 
+    {"id": "intro2LG", "text":"Always working at usage flow, information architecture to delivery navigable prototypes, that is the result of multidisciplinary studies at interfaces that bring a great value to the business."}, 
+    
+    {"id": "project3titleLG", "text":"EVE Air Mobility"}, 
+    {"id": "project3descriptionLG", "text":"Projected and realized to organize and employees home office alocation management."}, 
+
+    {"id": "project2titleLG", "text":"Drone Management"}, 
+    {"id": "project2descriptionLG", "text":"The aplication was created to drone traffic management and control in the airspace."}, 
+
+    {"id": "project1titleLG", "text":"FPL BR - EFB<br> (Eletronic Flight Bag)"}, 
+    {"id": "project1descriptionLG", "text":"The FPL-BR EFB app allows pilots consult aeronautic informations, create a flight planning and flight plan. Prototyped to phone and tablet versions, the application has light and dark mode."}, 
+    
+    {"id": "project4titleLG", "text":"Home Office System"}, 
+    {"id": "project4descriptionLG", "text":"Projected and realized to organize and employees home office alocation management."}, 
+    
+    {"id": "project5titleLG", "text":"Agroexplore"}, 
+    {"id": "project5descriptionLG", "text":"."}, 
+    
+    {"id": "phoneLG", "text":"Phone"}
+    
+    ]`;
 
 // , {"id": "", "text":""}

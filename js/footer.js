@@ -10,21 +10,21 @@ function checkFooterLG(){
     ptTranslate('pt');
   }
   else if(lg=="en"){
-    ptTranslate('en');
+    enTranslate('en');
   }
-  let params = new URLSearchParams(location.search);
-  params.delete('lg');
-  history.replaceState(null, '', '?' + params + location.hash);
+  // let params = new URLSearchParams(location.search);
+  // params.delete('lg');
+  // history.replaceState(null, '', '?' + params + location.hash);
 }
 
 
 function ptTranslate(){
   // location.href = location.protocol + '//' + location.host + location.pathname;
   translateJSON('pt');
-  localStorage.setItem("language", "pt");
+  // localStorage.setItem("language", "pt");
 }
 function enTranslate(){
   // location.href = location.protocol + '//' + location.host + location.pathname + '?lg=en';
   translateJSON('en');
-  localStorage.setItem("language", "en");
+  // localStorage.setItem("language", "en");
 }

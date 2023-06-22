@@ -1,7 +1,7 @@
 
 ptLG = `[{"id" : "backLG", "text" : "Voltar"}, 
 
-    {"id": "titleprojectLG", "text":"FPL BR - EFB<br> (Bolsa de Voo Eletrônica)"}, 
+    {"id": "titleprojectLG", "text":"Gerenciamento de Drones"}, 
     {"id": "topicchallengeLG", "text":"Desafios"}, 
     {"id": "descriptionchallengeLG", "text":"Agregar informações importantes para pilotos aeronáuticos, como: previsão do tempo; documentos oficiais aeronáuticos (cartas aeronáuticas) atualizados; mapa de planejamento de voo com integração do plano de voo; e gerenciamento de planos de voo."}, 
     {"id": "picture1LG", "text":"Para iniciar foi necessário analisar e entender 185 requisitos do sistema que levaram à necessidade de criar um fluxograma geral do aplicativo, o objetivo foi organizar e mapear todas as funcionalidades que atendesse às necessidades do projeto."}, 
@@ -19,7 +19,7 @@ ptLG = `[{"id" : "backLG", "text" : "Voltar"},
     {"id": "topictechnologiesLG", "text":"Tecnologias"}, 
     {"id": "topicconclusionLG", "text":"Conclusão"}, 
     {"id": "descriptionconclusionLG", "text":"Muitos desafios surgiram no decorrer do projeto devido ao deadline apertado, mas o tempo gasto para organizar todos os requisitos foi crucial para a precisão do projeto. Foi possível ver o valor em seguir o fluxo de organização de prótipos, criando stlye guide, componentizando cores, fontes e elementos, para então ganhar tempo no decorrer do projeto. Fazendo protótipos eficientes com fluxos interativos, para que as validações com PO e desenvolvedores fossem rápidas e eficazes, proporcionando um sucesso na entrega final, cliente satisfeito e projeto de design entregue no prazo estipulado."}
-    
+
     ]`;
 
 enLG = `[{"id" : "backLG", "text" : "Back"}, 
@@ -43,8 +43,6 @@ enLG = `[{"id" : "backLG", "text" : "Back"},
     {"id": "topictechnologiesLG", "text":"Technologies"}, 
     {"id": "topicconclusionLG", "text":"Conclusion"}, 
     {"id": "descriptionconclusionLG", "text":"Many challenges appeared during the project due to the tight deadline, but the time spent to organize all requirements was crucial to the accuracy of the project. It was possible to provide the importance of following the right process of a prototype organization flow, like creating a stlye guide, componentizing color palette, fonts and elements, just this way was possible to saving time during the project. Making efficient interactive flows prototypes, the validations with PO and developers were quick and effective, providing a success in the final delivery, a satisfied customer and a design project delivered on time."}
-    
-    
     
     ]`;
 
