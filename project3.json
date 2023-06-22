@@ -2,18 +2,35 @@
 ptLG = `[{"id" : "backLG", "text" : "Voltar"}, 
 
     {"id": "titleprojectLG", "text":"EVE - Mobilidade Aérea"}, 
+
+    {"id": "descriptionintroLG", "text":"Esta apresentação constitui um registro das macro decisões de UX Design do time da Atech do Grupo Embraer que apoia a construção de artefatos de engajamento do usuário no Projeto Sistema de Gerenciamento de Tráfego Aéreo Urbano (UATM), para a EVE. O Sistema atualmente está em fase de construção."}, 
+
     {"id": "topicadviceLG", "text":"Aviso"}, 
-    {"id": "descriptionadviceLG", "text":"Por ser uma plataforma que ainda não foi finalizada, e por se tratar de segurança pública, muitos detalhes do projeto foram omitidos para respeitar os termos de confidencialidade."}, 
+    {"id": "descriptionadviceLG", "text":"Por se tratar de segurança pública, muitos detalhes do projeto foram omitidos para respeitar os termos de confidencialidade."}, 
+    
+    {"id": "topicpartnershipLG", "text":"EVE & Embraer"}, 
+    {"id": "descriptionpartnershipLG", "text":"A EVE está desenvolvendo eVTOLs (aeronave 100% elétrica com capacidade de pousar e decolar na vertical), serviços, operações e sistema de gerenciamento aéreo para os veículos em conjunto com a expertise de engenharia da Embraer e uma rede global de parceiros."}, 
+
     {"id": "topicchallengeLG", "text":"Desafios"}, 
-    {"id": "descriptionchallengeLG", "text":"Estruturar e prototipar um modelo de sistema aéreo que contemple uma solução de gerenciamento de aeronaves elétricas para as grandes e médias cidades, respeitando todas as regras e capacidades que já existem no espaço aéreo atualmente."}, 
-    {"id": "picture1LG", "text":"Para iniciar foi necessário analisar e entender 185 requisitos do sistema que levaram à necessidade de criar um fluxograma geral do aplicativo, o objetivo foi organizar e mapear todas as funcionalidades que atendesse às necessidades do projeto."}, 
+    {"id": "descriptionchallengeLG", "text":"Acompanhar e compreender o mapeamento das necessidades dos diversos perfis de usuários operacionais. Coletar insights de diferentes perspectivas dos stakeholders e especialistas da Atech. Posteriormente, associar os dados coletados, estruturar uma jornada, validar e prototipar um modelo de sistema aéreo que contemple uma solução de gerenciamento de aeronaves elétricas para as grandes e médias cidades, respeitando todas as regras do projeto, normas aéreas e capacidades que já existem no espaço aéreo atualmente."}, 
+    
+    {"id": "topicusersLG", "text":"Usuários"}, 
+    {"id": "descriptionusersLG", "text":"Potenciais usuários foram pontos para extrair necessidades e validar as hipóteses, mas o ponto de partida para gerar inovação, como epifania tecnológica, foi considerar uma visão colaborativa de diversos stakeholders e especialistas imersos no contexto, no processo de desenvolvimento do projeto."}, 
+    
+    {"id": "topicjourneyLG", "text":"Jornada"}, 
+    {"id": "descriptionjourneyLG", "text":"O mapeamento das necessidades dos usuários foram baseados nos ciclos de eventos de engajamentos internos e externos, que visaram colher insights de diferentes perspectivas dos stakeholders. Além disso, o insight dos especialistas da Atech, bem como o trabalho colaborativo com a Eve, por meio do compartilhamento de informações e pesquisas realizadas, que são considerados uma rica fonte de dados. As decisões também consideram todos materiais publicados até o momento, bem como a base de conhecimento de design para realizar descobertas de necessidades, normas aéreas, design de sistemas e validações com usuários e fatores humanos."}, 
+    
     {"id": "topicteamLG", "text":"O Time"}, 
     {"id": "descriptionteamLG", "text":"Contou com o apoio de profissionais multidiciplinares de UX e UI designers, product owner, engenheiros, pilotos e controladores."}, 
+    
     {"id": "topicmyroleLG", "text":"Meu Papel"}, 
     {"id": "descriptionmyroleLG", "text":"Liderar a prototipação de todo o Design System do sistema, trazendo consistência, padronização e otimização em todos os componentes, para que a plataforma transmita a mesma identidade em toda ela. Também fiz o auxílio de soluções para todo o time de designers que também trabalharam nos protótipos da plataforma."}, 
+    
     {"id": "topicinterfaceLG", "text":"Interface"}, 
     {"id": "descriptioninterfaceLG", "text":"A plataforma foi prototipada para desktop, para ser utilizada nos centros de controle aéreo."}, 
+    
     {"id": "topictechnologiesLG", "text":"Tecnologias"}, 
+    
     {"id": "topicconclusionLG", "text":"Conclusão"}, 
     {"id": "descriptionconclusionLG", "text":"Por ser uma tecnologia inovadora e recente, existiram diversos desafios, mas também oportunidades de propor as melhores soluções que se adequassem ao nível da tecnologia oferecida ao usuário."}
 
@@ -22,18 +39,35 @@ ptLG = `[{"id" : "backLG", "text" : "Voltar"},
 enLG = `[{"id" : "backLG", "text" : "Back"}, 
     
     {"id": "titleprojectLG", "text":"EVE - Air Mobility"}, 
+
+    {"id": "descriptionintroLG", "text":"This presentation is a record of the UX Design macro decisions of the Embraer Group's Atech team that supports the construction of user engagement artifacts in the Urban Air Traffic Management System Project (UATM), for EVE. The system is currently under construction."}, 
+
     {"id": "topicadviceLG", "text":"Advise"}, 
-    {"id": "descriptionadviceLG", "text":"Because it is a platform that has not yet been finalized, and because it is about public safety, many details of the project were omitted to respect the terms of confidentiality."}, 
+    {"id": "descriptionadviceLG", "text":"Because it is public safety, many details of the project were omitted to respect confidentiality terms."}, 
+    
+    {"id": "topicpartnershipLG", "text":"EVE & Embraer"}, 
+    {"id": "descriptionpartnershipLG", "text":"EVE is developing eVTOLs (100% electric aircraft capable of vertical landing and takeoff), services, operations and air management system for the vehicles in conjunction with Embraer's engineering expertise and a global network of partners."}, 
+
     {"id": "topicchallengeLG", "text":"Challenges"}, 
-    {"id": "descriptionchallengeLG", "text":"Structuring and prototyping an air system model that includes an electric aircraft management solution for large and medium-sized cities, respecting all the rules and capabilities that already exist in airspace today."}, 
-    {"id": "picture1LG", "text":"To start was necessary analyze and understand 185 system requirements to create a general application flowchart, the goal was to organize and map all the functionalities to attend all the project needs."}, 
+    {"id": "descriptionchallengeLG", "text":"Monitor and understand the mapping of the needs of the different profiles of operational users. Gather insights from different perspectives of Atech stakeholders and experts. Subsequently, associating the collected data, structuring a journey, validating and prototyping an air system model that includes an electric aircraft management solution for large and medium-sized cities, respecting all design rules, air standards and capabilities that already exist in the airspace today."}, 
+    
+    {"id": "topicusersLG", "text":"Users"}, 
+    {"id": "descriptionusersLG", "text":"Potential users were points to extract needs and validate hypotheses, but the starting point to generate innovation, as a technological epiphany, was to consider a collaborative vision of different stakeholders and specialists immersed in the context, in the project development process."}, 
+    
+    {"id": "topicjourneyLG", "text":"Journey"}, 
+    {"id": "descriptionjourneyLG", "text":"The mapping of user needs was based on cycles of internal and external engagement events, which aimed to gather insights from different stakeholder perspectives. In addition, the insight of Atech experts, as well as the collaborative work with Eve, through sharing information and research carried out, which are considered a rich source of data. The decisions also consider all published materials to date, as well as the design knowledge base to perform needs discovery, airline standards, systems design, and validations with users and human factors."}, 
+    
     {"id": "topicteamLG", "text":"The Team"}, 
     {"id": "descriptionteamLG", "text":"It had the support of multidisciplinary UX and UI designers, product owners, engineers, pilots and controllers."}, 
+    
     {"id": "topicmyroleLG", "text":"My Role"}, 
     {"id": "descriptionmyroleLG", "text":"Lead the prototyping of the entire Design System of the system, bringing consistency, standardization and optimization to all components, so that the platform transmits the same identity throughout it. I also helped with solutions for the entire team of designers who also worked on the platform's prototypes."}, 
+    
     {"id": "topicinterfaceLG", "text":"Interface"}, 
     {"id": "descriptioninterfaceLG", "text":"The platform was prototyped for desktop, to be used in air control centers."}, 
+    
     {"id": "topictechnologiesLG", "text":"Technologies"}, 
+    
     {"id": "topicconclusionLG", "text":"Conclusion"}, 
     {"id": "descriptionconclusionLG", "text":"As it is an innovative and recent technology, there were several challenges, but also opportunities to propose the best solutions that suited the level of technology offered to the user."}
     
