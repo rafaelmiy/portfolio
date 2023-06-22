@@ -15,7 +15,7 @@ ptLG = `[{"id" : "meLG", "text" : "Eu"},
     {"id": "project2titleLG", "text":"Gereciamento de Drones"}, 
     {"id": "project2descriptionLG", "text":"O aplicativo foi criado para o gerenciamento e controle de drones no espaço aéreo."}, 
 
-    {"id": "project1titleLG", "text":"FPL BR - EFB<br> (Bolsa Eletrônica de Voo)"}, 
+    {"id": "project1titleLG", "text":"FPL BR - EFB (Bolsa Eletrônica de Voo)"}, 
     {"id": "project1descriptionLG", "text":"O aplicativo permite pilotos consultarem informações aeronáuticas, criar planejamento e plano de voo. Desenvolvido na versão celular e tablet, o app contempla o estilo diurno e noturno."}, 
     
     {"id": "project4titleLG", "text":"Sistema de Home Offices"}, 
@@ -44,7 +44,7 @@ enLG = `[{"id" : "meLG", "text" : "Me"},
     {"id": "project2titleLG", "text":"Drone Management"}, 
     {"id": "project2descriptionLG", "text":"The aplication was created to drone traffic management and control in the airspace."}, 
 
-    {"id": "project1titleLG", "text":"FPL BR - EFB<br> (Eletronic Flight Bag)"}, 
+    {"id": "project1titleLG", "text":"FPL BR - EFB (Eletronic Flight Bag)"}, 
     {"id": "project1descriptionLG", "text":"The FPL-BR EFB app allows pilots consult aeronautic informations, create a flight planning and flight plan. Prototyped to phone and tablet versions, the application has light and dark mode."}, 
     
     {"id": "project4titleLG", "text":"Home Office System"}, 

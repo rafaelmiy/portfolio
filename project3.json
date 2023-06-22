@@ -21,25 +21,21 @@ ptLG = `[{"id" : "backLG", "text" : "Voltar"},
 
 enLG = `[{"id" : "backLG", "text" : "Back"}, 
     
-    {"id": "titleprojectLG", "text":"FPL BR - EFB<br> (Electronic Flight Bag)"}, 
+    {"id": "titleprojectLG", "text":"EVE - Air Mobility"}, 
+    {"id": "topicadviceLG", "text":"Advise"}, 
+    {"id": "descriptionadviceLG", "text":"Because it is a platform that has not yet been finalized, and because it is about public safety, many details of the project were omitted to respect the terms of confidentiality."}, 
     {"id": "topicchallengeLG", "text":"Challenges"}, 
-    {"id": "descriptionchallengeLG", "text":"Combining important informations to aeronautic pilots, like: weather forecast; aeronautical official documents (aeronautical charts) up to date; flight planning map integrated with flight plan; and flight plans management."}, 
+    {"id": "descriptionchallengeLG", "text":"Structuring and prototyping an air system model that includes an electric aircraft management solution for large and medium-sized cities, respecting all the rules and capabilities that already exist in airspace today."}, 
     {"id": "picture1LG", "text":"To start was necessary analyze and understand 185 system requirements to create a general application flowchart, the goal was to organize and map all the functionalities to attend all the project needs."}, 
     {"id": "topicteamLG", "text":"The Team"}, 
-    {"id": "descriptionteamLG", "text":"Had the support of multidisciplinary professionals as UX and UI designers, product owner, requirements analysts, engineers and pilots."}, 
-    {"id": "picture2LG", "text":"Interview with pilots"}, 
-    {"id": "picture3LG", "text":"Visit at Campo de Marte Airport"}, 
-    {"id": "picture4LG", "text":"China pilot"}, 
+    {"id": "descriptionteamLG", "text":"It had the support of multidisciplinary UX and UI designers, product owners, engineers, pilots and controllers."}, 
+    {"id": "topicmyroleLG", "text":"My Role"}, 
+    {"id": "descriptionmyroleLG", "text":"Lead the prototyping of the entire Design System of the system, bringing consistency, standardization and optimization to all components, so that the platform transmits the same identity throughout it. I also helped with solutions for the entire team of designers who also worked on the platform's prototypes."}, 
     {"id": "topicinterfaceLG", "text":"Interface"}, 
-    {"id": "descriptioninterfaceLG", "text":"The application was prototyped to smartphone and tablet devices (Andoid and iOS), was adapted to low light environments, like inside airplane cabins with dark mode. To validate the screens, usability tests were performed with users interacting high fidelity navigable prototypes."}, 
-    {"id": "picture5LG", "text":"The application was prototyped to smartphoone and tablet devices, and idealized to Apple Watch."}, 
-    {"id": "picture6LG", "text":"Sitemap"}, 
-    {"id": "picture7LG", "text":"Colors designed for bright high light environments."}, 
-    {"id": "picture8LG", "text":"Colors optimized for dark and low light environments, ideal for airplane cabins at night."}, 
-    {"id": "picture9LG", "text":"Aeronautical information session."}, 
+    {"id": "descriptioninterfaceLG", "text":"The platform was prototyped for desktop, to be used in air control centers."}, 
     {"id": "topictechnologiesLG", "text":"Technologies"}, 
     {"id": "topicconclusionLG", "text":"Conclusion"}, 
-    {"id": "descriptionconclusionLG", "text":"Many challenges appeared during the project due to the tight deadline, but the time spent to organize all requirements was crucial to the accuracy of the project. It was possible to provide the importance of following the right process of a prototype organization flow, like creating a stlye guide, componentizing color palette, fonts and elements, just this way was possible to saving time during the project. Making efficient interactive flows prototypes, the validations with PO and developers were quick and effective, providing a success in the final delivery, a satisfied customer and a design project delivered on time."}
+    {"id": "descriptionconclusionLG", "text":"As it is an innovative and recent technology, there were several challenges, but also opportunities to propose the best solutions that suited the level of technology offered to the user."}
     
     ]`;
 
