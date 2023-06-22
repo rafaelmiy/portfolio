@@ -47,6 +47,9 @@ function pgTranslate(lg){
   // INCLUI O PARÂMETRO DE LINGUA DE TODOS OS LINKS DA PÁGINA
   updateLinksLg(lg);
 
+  // ALTERA O LINK DO CURRÍCULO PARA A LINGUAGEM DA PÁGINA  
+  updateCvLink(lg);
+
   // ATUALIZA PARÂMETRO DE LINGUA NA URL
   window.history.replaceState(null, null, "?lg="+lg);
 }
@@ -102,3 +105,8 @@ function updateLinksLg(lg){
 
 // TODO: fazer lógica para consumir json em pt quando for página
 // em português, e em en quando for inglês
+
+// ALTERA O LINK DO CURRÍCULO PARA A LINGUAGEM DA PÁGINA
+function updateCvLink(lg){
+  $('#cvLink').attr("href", "files/cv_RafaelMiyamoto_dark_"+lg+".pdf");
+}

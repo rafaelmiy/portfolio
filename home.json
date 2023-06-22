@@ -24,7 +24,9 @@ ptLG = `[{"id" : "meLG", "text" : "Eu"},
     {"id": "project5titleLG", "text":"Agroexplore"}, 
     {"id": "project5descriptionLG", "text":"Plataforma que veio para oferecer total controle de fazendas dos produtores rurais, tornando o processo de análise, contratação de serviços e solução muito mais simples e prático."}, 
 
-    {"id": "phoneLG", "text":"Celular"}
+    {"id": "phoneLG", "text":"Celular"},
+
+    {"id": "cvLinkLG", "text":"Baixar currículo atualizado"}
 
     ]`;
 
@@ -53,7 +55,9 @@ enLG = `[{"id" : "meLG", "text" : "Me"},
     {"id": "project5titleLG", "text":"Agroexplore"}, 
     {"id": "project5descriptionLG", "text":"Plataforma que veio para oferecer total controle de fazendas dos produtores rurais, tornando o processo de análise, contratação de serviços e solução muito mais simples e prático."}, 
     
-    {"id": "phoneLG", "text":"Phone"}
+    {"id": "phoneLG", "text":"Phone"},
+
+    {"id": "cvLinkLG", "text":"Download updated curriculum"}
     
     ]`;
 
