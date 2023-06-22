@@ -2,6 +2,8 @@
 ptLG = `[{"id" : "backLG", "text" : "Voltar"}, 
 
     {"id": "titleprojectLG", "text":"EVE - Mobilidade Aérea"}, 
+    {"id": "topicadviceLG", "text":"Aviso"}, 
+    {"id": "descriptionadviceLG", "text":"Por ser uma plataforma que ainda não foi finalizada, e por se tratar de segurança pública, muitos detalhes do projeto foram omitidos para respeitar os termos de confidencialidade."}, 
     {"id": "topicchallengeLG", "text":"Desafios"}, 
     {"id": "descriptionchallengeLG", "text":"Estruturar e prototipar um modelo de sistema aéreo que contemple uma solução de gerenciamento de aeronaves elétricas para as grandes e médias cidades, respeitando todas as regras e capacidades que já existem no espaço aéreo atualmente."}, 
     {"id": "picture1LG", "text":"Para iniciar foi necessário analisar e entender 185 requisitos do sistema que levaram à necessidade de criar um fluxograma geral do aplicativo, o objetivo foi organizar e mapear todas as funcionalidades que atendesse às necessidades do projeto."}, 
