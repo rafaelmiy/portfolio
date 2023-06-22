@@ -18,11 +18,11 @@ ptLG = `[{"id" : "meLG", "text" : "Eu"},
     {"id": "project1titleLG", "text":"FPL BR - EFB (Bolsa Eletrônica de Voo)"}, 
     {"id": "project1descriptionLG", "text":"O aplicativo permite pilotos consultarem informações aeronáuticas, criar planejamento e plano de voo. Desenvolvido na versão celular e tablet, o app contempla o estilo diurno e noturno."}, 
     
-    {"id": "project4titleLG", "text":"Sistema de Home Offices"}, 
+    {"id": "project4titleLG", "text":"Sistema de Home Office"}, 
     {"id": "project4descriptionLG", "text":"Sistema projetado e realizado para a organização e gerenciamento de alocação de trabalho remoto de funcionários."}, 
     
     {"id": "project5titleLG", "text":"Agroexplore"}, 
-    {"id": "project5descriptionLG", "text":"."}, 
+    {"id": "project5descriptionLG", "text":"Plataforma que veio para oferecer total controle de fazendas dos produtores rurais, tornando o processo de análise, contratação de serviços e solução muito mais simples e prático."}, 
 
     {"id": "phoneLG", "text":"Celular"}
 
@@ -39,10 +39,10 @@ enLG = `[{"id" : "meLG", "text" : "Me"},
     {"id": "intro2LG", "text":"Always working at usage flow, information architecture to delivery navigable prototypes, that is the result of multidisciplinary studies at interfaces that bring a great value to the business."}, 
     
     {"id": "project3titleLG", "text":"EVE Air Mobility"}, 
-    {"id": "project3descriptionLG", "text":"Projected and realized to organize and employees home office alocation management."}, 
+    {"id": "project3descriptionLG", "text":"Air management system for eVTOL vehicles (100% electric aircraft capable of vertical landing and takeoff), creating a highly safe and practical solution for everyday life."}, 
 
     {"id": "project2titleLG", "text":"Drone Management"}, 
-    {"id": "project2descriptionLG", "text":"The aplication was created to drone traffic management and control in the airspace."}, 
+    {"id": "project2descriptionLG", "text":"The application was created for the management and control of drones in the airspace."}, 
 
     {"id": "project1titleLG", "text":"FPL BR - EFB (Eletronic Flight Bag)"}, 
     {"id": "project1descriptionLG", "text":"The FPL-BR EFB app allows pilots consult aeronautic informations, create a flight planning and flight plan. Prototyped to phone and tablet versions, the application has light and dark mode."}, 
@@ -51,7 +51,7 @@ enLG = `[{"id" : "meLG", "text" : "Me"},
     {"id": "project4descriptionLG", "text":"Projected and realized to organize and employees home office alocation management."}, 
     
     {"id": "project5titleLG", "text":"Agroexplore"}, 
-    {"id": "project5descriptionLG", "text":"."}, 
+    {"id": "project5descriptionLG", "text":"Plataforma que veio para oferecer total controle de fazendas dos produtores rurais, tornando o processo de análise, contratação de serviços e solução muito mais simples e prático."}, 
     
     {"id": "phoneLG", "text":"Phone"}
     

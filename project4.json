@@ -1,0 +1,54 @@
+
+ptLG = `[{"id" : "backLG", "text" : "Voltar"}, 
+
+    {"id": "titleprojectLG", "text":"Agroexplore"}, 
+
+    {"id": "topicadviceLG", "text":"Aviso"}, 
+    {"id": "descriptionadviceLG", "text":"Por ser uma plataforma que ainda não foi finalizada, e por se tratar de segurança pública, muitos detalhes do projeto foram omitidos para respeitar os termos de confidencialidade."}, 
+    
+    {"id": "topicchallengeLG", "text":"Desafios"}, 
+    {"id": "descriptionchallengeLG", "text":"O mundo agro geralmente vem de uma família de legado, que vem passando por gerações, e por isso nem sempre o usuário é acostumado com a tecnologia, por isso, foi necessário ter cuidado para planejar uma plataforma que oferecesse todas as ferramentas e funcionalidades necessárias, porém de uma forma simples e prática, encurtando a distância do campo à tecnologia das soluções ágeis."}, 
+    
+    {"id": "topicteamLG", "text":"O Time"}, 
+    {"id": "descriptionteamLG", "text":"UX e UI designers da empresa Atech e especialistas da empresa Embraer."}, 
+    
+    {"id": "topicmyroleLG", "text":"Meu Papel"}, 
+    {"id": "descriptionmyroleLG", "text":"Propor uma reestruturação de toda a plataforma, encurtando a barreira da tecnologia para agregar valor ao produtor. Trabalhei forte com melhorias em gerais, como o logo da marca, tornando mais linear e padronizado, prototipando elementos, criando padronização em todas as plataformas (Desktop e móvel), prototipação interativa para demonstração das soluções, e construção de vídeo promocional para a segunda maior feira de tecnologia agrícola no mundo (Agrishow 2023)."}, 
+    
+    {"id": "topicinterfaceLG", "text":"Interface"}, 
+    {"id": "descriptioninterfaceLG", "text":"A plataforma foi prototipada para celulares e desktops, para a utilização em campo ou em casa, com o cuidado de terem a mesma linguagem de comunicação e o mesmo fluxo de processo, ou seja, se o usuário de celular utilizar a plataforma desktop, ele conseguirá navegar e utilizar todos os recursos sem nenhum problema."}, 
+    
+    {"id": "topictechnologiesLG", "text":"Tecnologias"}, 
+    
+    {"id": "topicconclusionLG", "text":"Conclusão"}, 
+    {"id": "descriptionconclusionLG", "text":""}
+
+    ]`;
+
+enLG = `[{"id" : "backLG", "text" : "Back"}, 
+    
+    {"id": "titleprojectLG", "text":"Agroexplore"}, 
+    
+    {"id": "topicadviceLG", "text":"Advise"}, 
+    {"id": "descriptionadviceLG", "text":"Because it is a platform that has not yet been finalized, and because it is about public safety, many details of the project were omitted to respect the terms of confidentiality."}, 
+    
+    {"id": "topicchallengeLG", "text":"Challenges"}, 
+    {"id": "descriptionchallengeLG", "text":"The agro world usually comes from a legacy family, which has been passing through generations, and therefore the user is not always used to technology, so it was necessary to be careful to plan a platform that offered all the necessary tools and functionalities, but in a simple and practical way, shortening the distance from the field to the technology of agile solutions."}, 
+    
+    {"id": "topicteamLG", "text":"The Team"}, 
+    {"id": "descriptionteamLG", "text":"UX and UI designers from Atech and specialists from Embraer."}, 
+    
+    {"id": "topicmyroleLG", "text":"My Role"}, 
+    {"id": "descriptionmyroleLG", "text":"Propose a restructuring of the entire platform, shortening the technology barrier to add value to the producer. I worked hard with improvements in general, such as the brand logo, making it more linear and standardized, prototyping elements, creating standardization on all platforms (Desktop and mobile), interactive prototyping to demonstrate the solutions, and building a promotional video for the second largest agricultural technology fair in the world (Agrishow 2023)."}, 
+    
+    {"id": "topicinterfaceLG", "text":"Interface"}, 
+    {"id": "descriptioninterfaceLG", "text":"The platform was prototyped for cell phones and desktops, for use in the field or at home, taking care to have the same communication language and the same process flow, that is, if the cell phone user uses the desktop platform, he will be able to navigate and use all features without any problem."}, 
+    
+    {"id": "topictechnologiesLG", "text":"Technologies"}, 
+    
+    {"id": "topicconclusionLG", "text":"Conclusion"}, 
+    {"id": "descriptionconclusionLG", "text":""}
+    
+    ]`;
+
+// , {"id": "", "text":""}
