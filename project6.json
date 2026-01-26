@@ -1,0 +1,60 @@
+
+ptLG = `[{"id" : "backLG", "text" : "Voltar"}, 
+
+    {"id": "titleprojectLG", "text":"DACOM - Sistema de Defesa Aérea Militar"}, 
+
+    {"id": "topicadviceLG", "text":"Aviso"}, 
+    {"id": "descriptionadviceLG", "text":"Por se tratar de um projeto confidencial e de interesse da segurança pública, informações sensíveis e detalhes operacionais foram omitidos em respeito aos termos de confidencialidade. O conteúdo apresentado baseia-se exclusivamente em materiais públicos e na descrição das metodologias e abordagens de UX utilizadas ao longo do projeto."}, 
+    
+    {"id": "topicpartnershipLG", "text":"Parceria"}, 
+    {"id": "descriptionpartnershipLG", "text":"A Comissão de Implantação do Sistema de Controle do Espaço Aéreo (CISCEA), em parceria com a ATECH, visa entregar a modernização do Sistema de Defesa Aérea e Circulação Operacional Militar (DACOM), com o time de UX/UI garantindo que a evolução tecnológica do sistema resulte em interfaces mais claras, eficientes e seguras para operadores em ambientes de alta complexidade. Garantindo a melhoria da usabilidade e redução da carga cognitiva, apoiando decisões rápidas e confiáveis no controle e na defesa do espaço aéreo brasileiro."}, 
+
+    {"id": "topicusersLG", "text":"Usuários"}, 
+    {"id": "descriptionusersLG", "text":"Projetar um sistema responsável pelo gerenciamento do tráfego aéreo e pela segurança de vidas no ar impôs desafios elevados de responsabilidade e precisão. Cada decisão de UX/UI foi cuidadosamente analisada, considerando cenários críticos, alta carga cognitiva e a necessidade de respostas rápidas. Nenhuma solução foi definida sem validação junto aos usuários finais, garantindo que fluxos, interações e informações refletissem fielmente a realidade operacional e apoiassem decisões seguras, confiáveis e consistentes."},
+
+    {"id": "topicjourneyLG", "text":"Jornada"}, 
+    {"id": "descriptionjourneyLG", "text":"A fase de descoberta foi marcada por uma imersão profunda no contexto operacional dos usuários. Foram visitados cinco Centros de Controle em diferentes regiões do Brasil — São Paulo, Brasília, Curitiba, Recife e Manaus — todos operando em regime contínuo, 24h por dia, 7 dias por semana, com alta carga cognitiva e pressão operacional. Ao longo dessa jornada, foram realizadas 65 entrevistas, totalizando 89 usuários envolvidos e mais de 46 horas de entrevistas gravadas. Entre as principais abordagens de UX, destacam-se os testes semânticos para avaliar a percepção de significado, contraste e intensidade cromática, além do uso de protótipos navegáveis 100% customizáveis. Esses protótipos permitiram que os próprios usuários ajustassem cores e configurações do sistema em tempo real, tornando o processo de validação mais fiel à realidade operacional e fortalecendo decisões de design baseadas em uso real."},
+    
+    {"id": "topicteamLG", "text":"O Time"}, 
+    {"id": "descriptionteamLG", "text":"UX e UI designers da empresa Atech e especialistas da empresa Embraer e CISCEA."}, 
+    
+    {"id": "topicmyroleLG", "text":"Meu Papel"}, 
+    {"id": "descriptionmyroleLG", "text":"Atuei de forma direta na condução dos testes com usuários, na análise dos resultados e na tradução desses insights em soluções de design. Fui responsável pela prototipação em alta fidelidade, estruturando um protótipo modular baseado em componentes reutilizáveis, biblioteca visual do projeto e uso intensivo de variáveis. Essa abordagem permitiu a criação de um protótipo 100% navegável, flexível e escalável, evitando fluxos extensos e engessados, e possibilitando ajustes rápidos durante as validações com usuários. O resultado foi um artefato de design fiel à complexidade do sistema real, capaz de evoluir junto com as decisões do projeto e apoiar de forma consistente a validação de usabilidade em ambientes críticos."}, 
+    
+    {"id": "topictechnologiesLG", "text":"Tecnologias"}, 
+    
+    {"id": "topicconclusionLG", "text":"Conclusão"}, 
+    {"id": "descriptionconclusionLG", "text":"Ao longo do projeto, o trabalho de UX/UI foi recebido de forma extremamente positiva pelos usuários do meio militar. Muitos relataram que era a primeira vez que participavam ativamente de um processo de design para a evolução de um sistema operacional, destacando o valor de serem ouvidos e envolvidos nas decisões. Essa aproximação entre designers e operadores reforçou a importância do UX na construção de soluções mais eficazes, seguras e alinhadas à realidade de uso, consolidando o design como um aliado estratégico na modernização de sistemas críticos."}
+
+    ]`;
+
+enLG = `[{"id" : "backLG", "text" : "Back"}, 
+    
+    {"id": "titleprojectLG", "text":"DACOM - Military Air Defense System"}, 
+    
+    {"id": "topicadviceLG", "text":"Advise"}, 
+    {"id": "descriptionadviceLG", "text":"Because this is a confidential project of public safety interest, sensitive information and operational details have been omitted in accordance with confidentiality terms. The content presented is based exclusively on public materials and a description of the UX methodologies and approaches used throughout the project."}, 
+    
+    {"id": "topicpartnershipLG", "text":"Partners"}, 
+    {"id": "descriptionpartnershipLG", "text":"The Airspace Control System Implementation Commission (CISCEA), in partnership with ATECH, aims to deliver the modernization of the Air Defense and Military Operational Circulation System (DACOM), with the UX/UI team ensuring that the technological evolution of the system results in clearer, more efficient, and safer interfaces for operators in highly complex environments. This guarantees improved usability and reduced cognitive load, supporting quick and reliable decisions in the control and defense of Brazilian airspace."}, 
+
+    {"id": "topicusersLG", "text":"Users"}, 
+    {"id": "descriptionusersLG", "text":"Designing a system responsible for managing air traffic and ensuring the safety of lives in the air presented significant challenges in terms of responsibility and precision. Every UX/UI decision was carefully analyzed, considering critical scenarios, high cognitive load, and the need for rapid responses. No solution was defined without validation with end users, ensuring that flows, interactions, and information faithfully reflected operational reality and supported safe, reliable, and consistent decisions."}, 
+
+    {"id": "topicjourneyLG", "text":"Journey"}, 
+    {"id": "descriptionjourneyLG", "text":"The discovery phase was marked by a deep immersion in the users' operational context. Five Control Centers in different regions of Brazil were visited — São Paulo, Brasília, Curitiba, Recife, and Manaus — all operating continuously, 24 hours a day, 7 days a week, with high cognitive load and operational pressure. Throughout this journey, 65 interviews were conducted, totaling 89 users involved and more than 46 hours of recorded interviews. Among the main UX approaches, semantic tests stand out to evaluate the perception of meaning, contrast, and color intensity, in addition to the use of 100% customizable navigable prototypes. These prototypes allowed users themselves to adjust colors and system settings in real time, making the validation process more faithful to operational reality and strengthening design decisions based on real-world use."},
+    
+    {"id": "topicteamLG", "text":"The Team"}, 
+    {"id": "descriptionteamLG", "text":"UX and UI designers from Atech and specialists from Embraer and CISCEA."}, 
+    
+    {"id": "topicmyroleLG", "text":"My Role"}, 
+    {"id": "descriptionmyroleLG", "text":"I was directly involved in conducting user tests, analyzing the results, and translating those insights into design solutions. I was responsible for high-fidelity prototyping, structuring a modular prototype based on reusable components, a visual project library, and intensive use of variables. This approach allowed for the creation of a 100% navigable, flexible, and scalable prototype, avoiding lengthy and rigid flows, and enabling rapid adjustments during user validation. The result was a design artifact faithful to the complexity of the real system, capable of evolving along with project decisions and consistently supporting usability validation in critical environments."}, 
+    
+    {"id": "topictechnologiesLG", "text":"Technologies"}, 
+    
+    {"id": "topicconclusionLG", "text":"Conclusion"}, 
+    {"id": "descriptionconclusionLG", "text":"Throughout the project, the UX/UI work was received extremely positively by users in the military environment. Many reported that it was the first time they had actively participated in a design process for the evolution of an operating system, highlighting the value of being heard and involved in decisions. This closer relationship between designers and operators reinforced the importance of UX in building more effective, secure solutions aligned with real-world usage, solidifying design as a strategic ally in the modernization of critical systems."}
+    
+    ]`;
+
+// , {"id": "", "text":""}

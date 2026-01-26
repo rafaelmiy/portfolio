@@ -10,6 +10,7 @@
     --drone-color: #006D7E;
     --eve-color: #7954D7;
     --agroexplore-color: #469BA2;
+    --dacom-color: #24228d;
 }
 .dark-mode{
     --background-color: #000000;
@@ -32,6 +33,9 @@ body.eve{
 }
 body.agroexplore{
     background-color: var(--agroexplore-color);
+}
+body.dacom{
+    background-color: var(--dacom-color);
 }
 
 a:focus{
@@ -379,6 +383,9 @@ footer div{
 .project-page.agroexplore-bg .topic.advice{
     color: var(--agroexplore-color);
 }
+.project-page.dacom-bg .topic.advice{
+    color: var(--dacom-color);
+}
 .project-page .topic.advice .topic-title{
     margin: auto 18px auto 0;
 }
@@ -446,7 +453,7 @@ footer div{
     padding: 15px;
     background: #1D2B40;
     border-radius: 10px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .topic.pics .pic p{
     text-align: center;
@@ -459,6 +466,9 @@ footer div{
 }
 .topic.pics.gradient{
     background: linear-gradient(180deg, #37527B 0%, #9EABBE 172.78%);
+}
+.dacom .topic.pics.gradient{
+    background: linear-gradient(180deg, #24228d 0%, #7f7edf 172.78%);
 }
 
 .fpl-bg{
@@ -475,6 +485,10 @@ footer div{
 
 .agroexplore-bg{
     background: var(--agroexplore-color);
+}
+
+.dacom-bg{
+    background: var(--dacom-color);
 }
 
 
